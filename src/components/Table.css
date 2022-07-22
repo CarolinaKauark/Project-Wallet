@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap');
+
+table {
+  display: table;
+  /* display: flex;
+  flex-direction: column; */
+  font-family: var(--font-principal);
+  font-weight: 300;
+  margin: auto;
+  width: 95%;
+  text-indent: initial;
+  border-collapse: collapse; 
+}
+
+table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-collapse: collapse;
+}
+
+table thead tr, tbody tr {
+  display: table-row;
+  padding: 10px;
+}
+
+table thead tr {
+  background-color: black;
+  border-radius: 5px;
+}
+
+table thead tr th {
+  display: table-cell;
+  word-wrap: break-word;
+  vertical-align: inherit;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+table thead th:first-child {
+  border-top-left-radius: 5px;
+}
+
+table thead th:last-child {
+  border-top-right-radius: 5px;
+}
+
+table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+}
+
+table tbody tr {
+  background-color: whitesmoke;
+}
+
+table tbody tr td {
+  word-wrap: break-word;
+  height: 20px;
+  max-width: 150px;
+  padding: 20px 2px;
+  text-align: center;
+}
+
+.buttons {
+  max-width: 120px;
+  border: none;
+}
+
+.delete, .edit {
+  width: 80px;
+  border-bottom: 0;
+  border: none;
+  padding: 2px 0px;
+}
+
+.delete {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.edit {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.formbtn {
+  font-size: 25px;
+}
+
+.buttons button:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}

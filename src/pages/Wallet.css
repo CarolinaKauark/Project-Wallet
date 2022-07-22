@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+  --cor-rosa: #eb6c63;
+  --cor-lilas: #ec9ec3;
+  --cor-azul: #93b9d7;
+  --cor-roxo: #643e8f;
+  --cor-amarelo: #fed640;
+  --cor-azul2: #a2acd3;
+  --font-principal: 'Ubuntu', sans-serif;
+}
+
+
+
+form {
+  width: 95%;
+  margin: 30px auto;
+  background-color: grey;
+  border-radius: 5px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 10px 0px 10px;
+  font-family: var(--font-principal);
+  font-weight: 400;
+  color: white;
+}
+
+form .description {
+  display: flex;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+form input, select, form button, textarea {
+  width: 110px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  margin-left: 10px;
+  border: none;
+}
+
+form button {
+  width: 150px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-bottom: 0;
+  border: none;
+}
+
+form button:hover {
+  background-color: lightgrey;
+  transform: scale(1.05);
+  cursor: pointer;
+}

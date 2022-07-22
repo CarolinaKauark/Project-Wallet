@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+:root {
+  --cor-rosa: #eb6c63;
+  --cor-lilas: #ec9ec3;
+  --cor-azul: #93b9d7;
+  --cor-roxo: #643e8f;
+  --cor-amarelo: #fed640;
+  --cor-azul2: black;
+  --font-principal: 'Ubuntu', sans-serif;
+}
+
+body {
+  background-image: url("../imgs/background-coin.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px auto;
+  background-color: white;
+  box-shadow: 0px 0px 3px 2px lightgray;
+  border-radius: 1rem; 
+  padding: 50px 0px;
+  /* border: 0.2px solid black; */
+  width: 40%; 
+}
+
+/* .inputs img {
+  height: 150px;
+  width: 150px;
+} */
+
+.inputs input {
+  width: 15rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  border: 1px solid lightgray;
+}
+
+.inputs button {
+  width: 16rem;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  background-color: black;
+  color: white;
+  transition: ease-in-out .2s;
+  font-weight: 400;
+}
+
+.inputs button:hover {
+  /* width: 18rem;
+  padding: 12px 8px; */
+  background-color: black;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.inputs h1 {
+  font-family: var(--font-principal);
+  font-size: 50px;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.inputs span {
+  color: gray;
+  font-family: var(--font-principal);
+}
